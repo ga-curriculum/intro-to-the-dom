@@ -26,3 +26,24 @@ You are now able to explore the `<h1>` element's DOM object - referred to as a *
 Now try typing this in: `$0.style.backgroundColor = 'yellow'`
 
 > CSS property names in the DOM are lowerCamelCased because hyphens would be interpreted as minus signs.
+
+## Why do we use the DOM?
+
+Developers make web pages dynamic by manipulating the DOM using JavaScript.
+
+For example, in a To-Do app, a user typically would:
+
+- Type the text of the new to-do into an `<input>`
+- Click an `[Add Todo]` `<button>`
+
+The developer certainly would have coded a JavaScript function that would run in response to the button being clicked.
+
+That function would then perform the following:
+
+1. Create a new element, e.g., an `<li>`
+2. Access the text entered into the `<input>` element
+3. Set the content of the `<li>` to that text
+4. Append the new element to the appropriate parent element, e.g., a `<ul>`
+5. Finally, for a better user experience (UX), "reset" the input by clearing out the current text
+
+Several of the above steps requires the JS to access existing elements. Let's see how we can select those DOM elements...
