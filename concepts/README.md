@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-## Using DevTools to Explore the DOM
+## What is the DOM?
 
 After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
 
