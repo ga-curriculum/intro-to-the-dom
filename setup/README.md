@@ -4,6 +4,16 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create a new directories and files for HTML and JS to practice DOM concepts, fundamentals, and manipulation.
 
+********************************************************************************
+********************************************************************************
+
+Below are the steps for the set up, it will just need to be formatted to match
+all of the other 
+
+********************************************************************************
+********************************************************************************
+
+
 ### Create the Project Files
 1. Make sure you are in your root directory: `cd ~`
 2. Make a `code` folder (*if you haven't yet*): `mkdir code`  
