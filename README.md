@@ -12,11 +12,11 @@ tktk What is the takeaway of this module?
 | ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md) | -- | -- | tktk topics covered |
 | [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
-| [Selecting DOM Elements](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
-| [Element Properties](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
-| [Class Attribute](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
-| [Collections of Elements](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
-| [Further Study](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Selecting DOM Elements](./selecting-dom-elements/README.md) | -- | -- | tktk topics covered |
+| [Element Properties](./element-properties/README.md) | -- | -- | tktk topics covered |
+| [Class Attribute](./class-attribute/README.md) | -- | -- | tktk topics covered |
+| [Collections of Elements](./collections-of-elements/README.md) | -- | -- | tktk topics covered |
+| [Further Study](./further-study/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
 ## Additional content 
