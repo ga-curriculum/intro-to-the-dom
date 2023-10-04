@@ -1,12 +1,10 @@
-# Intro to HTML - Setup
+# Intro to the DOM - Setup
 
 ![Hero image](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a new directories and files for HTML and JS to practice DOM concepts, fundamentals, and manipulation.
 
-********************************************************************************
-**Below are the steps for the set up, it will just need to be formatted to match all of the other modules**
-********************************************************************************
+**tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules**
 
 
 ### Create the Project Files
