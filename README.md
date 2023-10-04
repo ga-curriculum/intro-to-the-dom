@@ -1,4 +1,4 @@
-# [tktk Module Name]
+# Introduction to the Document Object Model (DOM)
 
 ![Hero image](./assets/tktkhero-main.png)
 
@@ -11,9 +11,13 @@ tktk What is the takeaway of this module?
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md) | -- | -- | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-|  **Total Module**                                        | tktk min | ---           | ---                 |
+| [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
+| [Selecting DOM Elements](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Element Properties](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Class Attribute](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Collections of Elements](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+| [Further Study](./tktk-microlesson-03/README.md) | -- | -- | tktk topics covered |
+|  **Total Module**                                        | -- | ---           | ---                 |
 
 ## Additional content 
 
