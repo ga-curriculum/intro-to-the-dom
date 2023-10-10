@@ -11,7 +11,9 @@ The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/A
 > **tktk tktk Looks like another asset from Jim's imgur. It's not bad, not sure how the team feels about it.**
 <img src="https://i.imgur.com/W9ahTXh.png">
 
-As you can see, it's a tree-like data structure with the top (root) being the `document` object. **[tktk tktk This will need to change if the above asset becomes drastically different.]**
+As you can see, it's a tree-like data structure with the top (root) being the `document` object.
+
+**^^ [tktk tktk This will need to change if the above asset becomes drastically different.]**
 
 <details>	
 <summary>❓ What JS data type would each of those nodes be?
@@ -23,6 +25,8 @@ As you can see, it's a tree-like data structure with the top (root) being the `d
 <hr>
 </details>
 
+**^^ [tktk tktk This will also need to change if the above asset becomes drastically different.]**
+
 If we type `document` in DevTool's console, we'll see the HTML-centric representation of the document, however, we want to explore the JavaScript data structure that is the DOM.  We can do this by typing `dir(document)` in console and exploring the objects and properties of the DOM.
 
 The DOM has an application programming interface ([API](https://en.wikipedia.org/wiki/Application_programming_interface)) that enables developers to make the UI dynamic by using JavaScript to:
@@ -32,6 +36,8 @@ The DOM has an application programming interface ([API](https://en.wikipedia.org
 -  Change an element's styling
 -  Listen for events, e.g., when an element is clicked
 -  Animate elements
+
+## Using DevTools to Explore the DOM
 
 After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
 
