@@ -1,8 +1,8 @@
 # Intro to the DOM - Concepts
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to have a basic understand of the Document Object Model (DOM).
 
 ## What is the DOM?
 
@@ -69,7 +69,7 @@ For example, in a To-Do app, a user typically would:
 - Type the text of the new to-do into an `<input>`
 - Click an `[Add Todo]` `<button>`
 
-**^^ I think that an asset may be good here so that students can visualize the To Do App.**
+**^^ tktk tktk I think that an asset may be good here so that students can visualize the To Do App.**
 
 The developer certainly would have coded a JavaScript function that would run in response to the button being clicked.
 
