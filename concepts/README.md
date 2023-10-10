@@ -8,7 +8,7 @@
 
 The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory data structure that represents the browser's web document.
 
-**vv tktk tktk Looks like another asset from Jim's imgur. It's not bad, not sure how the team feels about it.**
+**vv [tktk tktk Looks like another asset from Jim's imgur. It's not bad, not sure how the team feels about it.]**
 <img src="https://i.imgur.com/W9ahTXh.png">
 
 As you can see, it's a tree-like data structure with the top (root) being the `document` object.
@@ -45,7 +45,7 @@ Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
 
 Let's try out the DevTools by clicking on the `h1` element and using the **Styles** panel to add a CSS property of `color: red;`
 
-**Probably going to need a new image here**
+**vv tktk tktk I think this image works fine, we'll just need to move it to our assests, as long as it meets our image size requirements.**
 <img src="https://i.imgur.com/RAvgNl0.png" alt="going to need a new image?">
 
 Look closely after the closing `</h1>` tag - you see that _`== $0`_?
