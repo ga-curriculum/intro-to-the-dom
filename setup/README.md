@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create a new directories and files for HTML and JS to practice DOM concepts, fundamentals, and manipulation.
 
-**tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules**
+> **tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules**
 
 
 ### Create the Project Files
