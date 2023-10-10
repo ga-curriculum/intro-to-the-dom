@@ -69,6 +69,8 @@ For example, in a To-Do app, a user typically would:
 - Type the text of the new to-do into an `<input>`
 - Click an `[Add Todo]` `<button>`
 
+**^^ I think that an asset may be good here so that students can visualize the To Do App.**
+
 The developer certainly would have coded a JavaScript function that would run in response to the button being clicked.
 
 That function would then perform the following:
@@ -79,4 +81,4 @@ That function would then perform the following:
 4. Append the new element to the appropriate parent element, e.g., a `<ul>`
 5. Finally, for a better user experience (UX), "reset" the input by clearing out the current text
 
-Several of the above steps requires the JS to access existing elements. Let's see how we can select those DOM elements...
+Several of the above steps requires the JS to access existing elements on the DOM. This can be done in a number of different ways, for example: by the element's `id`, CSS selector, `class`, etc.
