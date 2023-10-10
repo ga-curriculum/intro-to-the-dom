@@ -1,4 +1,4 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Selecting DOM Elements
 
 ![Hero image](./assets/hero.png)
 
