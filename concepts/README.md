@@ -6,13 +6,12 @@
 
 ## What is the DOM?
 
-## 2. What's the DOM?
-
 The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory data structure that represents the browser's web document.
 
+> **tktk tktk Looks like another asset from Jim's imgur. It's not bad, not sure how the team feels about it.**
 <img src="https://i.imgur.com/W9ahTXh.png">
 
-As you can see, it's a tree-like data structure with the top (root) being the `document` object.
+As you can see, it's a tree-like data structure with the top (root) being the `document` object. **[tktk tktk This will need to change if the above asset becomes drastically different.]**
 
 <details>	
 <summary>❓ What JS data type would each of those nodes be?
