@@ -65,6 +65,8 @@ Inspecting the properties of a DOM element in the console reveals a couple of pr
 
 Let's check out changing the content of the `<p>` element by assigning the string **`Comments for <strong>Today</strong>`** first to `innerText`, then to `innerHTML`.
 
+**^^ tktk tktk Maybe include assets showing the results of both using innerText and innerHTML**
+
 As you saw, if you want to include HTML in the content, use `innerHTML`.
 
 The power of `innerHTML` may not be obvious at first, however, the string being assigned can be as complex as you want - containing multiple elements with attributes, etc.
