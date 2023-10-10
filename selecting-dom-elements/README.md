@@ -1,8 +1,8 @@
 # Selecting DOM Elements
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to select elements from the DOM.
 
 ## 5. Selecting a Single Element by its `id`
 
