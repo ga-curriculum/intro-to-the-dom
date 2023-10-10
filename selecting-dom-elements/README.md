@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to select elements from the DOM.
 
-## 5. Selecting a Single Element by its `id`
+## Selecting a Single Element by its `id`
 
 The [getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) method is the most efficient way to select a DOM element if it has an `id` assigned to it (using the `id` attribute).
 
@@ -21,13 +21,13 @@ If you wish to explore the element's JS object representation (the DOM), use `co
 
 Cool, but how do we select a single element without an `id`?  Let's see...
 
-## 6. Selecting a Single Element Using a CSS Selector
+## Selecting a Single Element Using a CSS Selector
 
 The [querySelector(selector)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) method is the go-to method for selecting a single element using the power of CSS3's selectors.
 
 The **`selector`** argument is a string that follows the rules of regular CSS3 selectors.
 
-Yes, we can select DOM elements using CSS3 selectors just like do to target elements for styling!
+Yes, we can select DOM elements using CSS3 selectors just like we do to target elements for styling!
 
 <details>	
 <summary>
@@ -54,7 +54,7 @@ If no matching DOM element is found, `querySelector()` will return `null`.
 
 4. Verify that the `<p>` element was selected by logging out `pEl`.
 
-## 7. Changing the Content of an Element
+## Changing the Content of an Element
 
 Now that we're able to select an element of our choosing, let's see how we can change the content of that element...
 
@@ -73,7 +73,7 @@ If the string you want to assign does not contain any HTML, assigning to `innerT
 
 > Note:  There is another property, [textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent), that is very similar to `innerText` - the primary difference between the two is that: `textContent` returns all text content regardless of (CSS) styling, whereas `innerText` takes any styling into consideration.  For example, `innerText` won't return text that has been hidden using CSS.
 
-## 8. Changing the Style of an Element
+## Changing the Style of an Element
 
 DOM elements have a [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property that can be used to set CSS styling!
 
