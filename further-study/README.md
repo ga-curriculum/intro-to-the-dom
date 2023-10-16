@@ -1,12 +1,10 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Further Study
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-## 15. Further Study
-
-### Turning `NodeList` & `HTMLCollection` Array-Like Objects Into Actual Arrays
+## Turning `NodeList` & `HTMLCollection` Array-Like Objects Into Actual Arrays
 
 As discussed in the lesson, methods designed to return a collection of DOM elements return "array-like" objects that have a `forEach` method, but don't contain other useful methods that full-fledged arrays have.
 
@@ -46,7 +44,7 @@ Another way to convert a NodeList or HTMLCollection into an array is by using th
 const itemEls = [...document.querySelectorAll('.item')];
 ```
 
-### Other Methods to Select Multiple Elements
+## Other Methods to Select Multiple Elements
 
 The following methods _can_ also be used to select multiple elements:
 
