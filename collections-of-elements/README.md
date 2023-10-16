@@ -1,10 +1,10 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Collections of Elements
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-## 13. Iterating Over a Collection of Elements
+## Iterating Over a Collection of Elements
 
 `querySelectorAll` returns an array-like object called a [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList).
 
