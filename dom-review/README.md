@@ -14,18 +14,7 @@ In summary, use the following to help you decide which method to use to select D
 
 - **`querySelectorAll`**: Use when you need to select multiple elements.
 
-### ❓ Review Questions
-
-<details>
-<summary>
-(1) If we want to change the text (without HTML) inside of a <code>&lt;div&gt;</code>, which property should we assign to?
-</summary>
-<hr>
-
-**innerText**
-
-<hr>
-</details>
+## ❓ Essential Questions
 
 <details>
 <summary>
@@ -49,7 +38,7 @@ In summary, use the following to help you decide which method to use to select D
 <hr>
 </details>
 
-## ❓ Essential Questions (3 mins)
+
 
 <details>
 <summary>
@@ -75,22 +64,11 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(3) If we want to assign plain text (no embedded HTML), what property on the DOM element would we assign to?
+(1) If we want to assign plain text (no embedded HTML), what property on the DOM element would we assign to?
 </summary>
 <hr>
 
 **`innerText` (or `textContent`)**
-
-<hr>
-</details>
-
-<details>
-<summary>
-(4) Which property on a DOM element is used to set the CSS styling for that element?
-</summary>
-<hr>
-
-**`style`**
 
 <hr>
 </details>
