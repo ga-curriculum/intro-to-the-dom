@@ -18,7 +18,7 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(2) How many DOM elements are returned by the <code>querySelector</code> method?
+(1) How many DOM elements are returned by the <code>querySelector</code> method?
 </summary>
 <hr>
 
@@ -29,7 +29,7 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(3) What DOM element property is used to style a DOM element using JS?
+(2) What DOM element property is used to style a DOM element using JS?
 </summary>
 <hr>
 
@@ -42,7 +42,7 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(1) What method is the most efficient for selecting an element that has an <code>id</code>?
+(3) What method is the most efficient for selecting an element that has an <code>id</code>?
 </summary>
 <hr>
 
@@ -53,7 +53,7 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(2) If we want to assign content to an element that includes HTML, what property on the DOM element would we assign to?
+(4) If we want to assign content to an element that includes HTML, what property on the DOM element would we assign to?
 </summary>
 <hr>
 
@@ -64,7 +64,7 @@ In summary, use the following to help you decide which method to use to select D
 
 <details>
 <summary>
-(1) If we want to assign plain text (no embedded HTML), what property on the DOM element would we assign to?
+(5) If we want to assign plain text (no embedded HTML), what property on the DOM element would we assign to?
 </summary>
 <hr>
 
