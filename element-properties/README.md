@@ -58,28 +58,3 @@ The following are methods that the [Element API](https://developer.mozilla.org/e
 
 <hr>
 </details>
-
-## 11. Selecting Multiple Elements
-
-Before we check out selecting multiple elements, let's add the following HTML below the existing `<p>` element.
-
-VS Code includes [Emmet](https://docs.emmet.io/abbreviations/syntax/), which is a great tool for quickly generating markup. Type the following to generate most of the desired markup below:
-<br>`ul#comments>li{comment}*3`
-
-```html
-<ul id="comments">
-  <li>first comment</li>
-  <li>second comment</li>
-  <li>third comment</li>
-</ul>
-```
-
-Like `querySelector()`, the [querySelectorAll(selector)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) method uses the power of CSS3 selectors to specify which DOM elements we want to select.
-
-Of course, like the name says, it selects **all** DOM elements that match the provided selector.
-
-### 👉 YOU DO: Selecting Multiple Elements (2 mins)
-
-1. Use `document.querySelectorAll()` to select all `<li>` elements that are children of the element with an id of `comments`, assigning them to a variable named `commentEls`.
-
-2. `console.log(commentEls)` to verify it worked. 
