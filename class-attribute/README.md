@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
-## 10. The `class` Attribute
+## The `class` Attribute
 
 Technically, you could use those attribute methods above to work with an element's classes.
 
