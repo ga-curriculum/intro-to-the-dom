@@ -4,39 +4,6 @@
 
 **Learning objective:** By the end of this lesson, students will be able to have a basic understand of the Document Object Model (DOM).
 
-## What is the DOM?
-
-The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory data structure that represents the browser's web document.
-
-**vv [tktk tktk Looks like another asset from Jim's imgur. It's not bad, not sure how the team feels about it.]**
-<img src="https://i.imgur.com/W9ahTXh.png">
-
-As you can see, it's a tree-like data structure with the top (root) being the `document` object.
-
-**^^ [tktk tktk This will need to change if the above asset becomes drastically different.]**
-
-<details>	
-<summary>❓ What JS data type would each of those nodes be?
-</summary>
-<hr>
-
-**Nodes most certainly will be JS objects with properties used to get/set information and methods to manipulate the DOM.**
-
-<hr>
-</details>
-
-**^^ [tktk tktk This will also need to change if the above asset becomes drastically different.]**
-
-If we type `document` in DevTool's console, we'll see the HTML-centric representation of the document, however, we want to explore the JavaScript data structure that is the DOM.  We can do this by typing `dir(document)` in console and exploring the objects and properties of the DOM.
-
-The DOM has an application programming interface ([API](https://en.wikipedia.org/wiki/Application_programming_interface)) that enables developers to make the UI dynamic by using JavaScript to:
-
--  Add/remove elements to/from the document
--  Change the content of elements
--  Change an element's styling
--  Listen for events, e.g., when an element is clicked
--  Animate elements
-
 ## Using DevTools to Explore the DOM
 
 After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
