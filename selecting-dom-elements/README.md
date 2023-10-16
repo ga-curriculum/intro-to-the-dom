@@ -127,7 +127,7 @@ titleEl.style.textAlign = 'center';
 
 - Change the `color` of the `<p>` element to a color of your choosing.
 
-## 11. Selecting Multiple Elements
+## Selecting Multiple Elements
 
 Before we check out selecting multiple elements, let's add the following HTML below the existing `<p>` element.
 
