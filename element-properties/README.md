@@ -1,10 +1,10 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Element Properties
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/tktkhero-main-subhead.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to manipulate the attributes of an element.
 
-## 9. Accessing/Modifying the Attributes of an Element
+## Accessing/Modifying the Attributes of an Element
 
 You may need to get, set, or check if an element has a certain **attribute**.
 
@@ -23,20 +23,6 @@ The following are methods that the [Element API](https://developer.mozilla.org/e
 3. In the JS, write the line of code that will add an `href` attribute that will make the link navigate to "https://www.google.com".
 
 > Hint: Which of the attribute methods above looks tasty?
-
-## 10. The `class` Attribute
-
-Technically, you could use those attribute methods above to work with an element's classes.
-
-However, the [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) property offers a better approach. 
-
-`classList` is an object with the following methods pertaining to classes:
-
-- `add(className, className, ...)` 
-- `remove(className, className, ...)`
-- `toggle(className)`
-- `contains(className)`
-- `replace(oldClass, newClass)`
 
 ### ❓ Review Questions
 
