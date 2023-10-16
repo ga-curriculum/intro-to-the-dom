@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to select elements from the DOM.
 
-## # Selecting DOM Elements:
+## Selecting DOM Elements:
 
 ### By its `id`
 
