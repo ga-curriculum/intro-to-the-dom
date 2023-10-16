@@ -4,7 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to have a basic understanding of what the DOM is and create new directories and files for HTML and JS to practice DOM concepts, fundamentals, and manipulation.
 
-**> tktk Going by the Current Competency Map, I have the 'What is the DOM?' section included here in Setup. I think it does work here, just wanted to discuss whether Setup is also for basic concepts, as in setting up the concepts, or we just want to have Setup be setting up of the code. Depending on how we want to go, this will either stay here or move to Concepts.**
+**vv [tktk tktk Going by the Current Competency Map, I have the 'What is the DOM?' section included here in Setup. I think it does work here, just wanted to discuss whether Setup is also for basic concepts, as in setting up the concepts, or we just want to have Setup be setting up of the code. Depending on how we want to go, this will either stay here or move to Concepts.]**
 
 ## What is the DOM?
 
@@ -40,7 +40,7 @@ The DOM has an application programming interface ([API](https://en.wikipedia.org
 -  Animate elements
 
 
-> **tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules**
+> **[tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules.]**
 
 
 ### Create the Project Files
