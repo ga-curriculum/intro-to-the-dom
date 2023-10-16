@@ -16,6 +16,7 @@ tktk What is the takeaway of this module?
 | [Collections of Elements](./collections-of-elements/README.md) | -- | -- | tktk topics covered |
 | [Element Properties](./element-properties/README.md) | -- | -- | tktk topics covered |
 | [Class Attribute](./class-attribute/README.md) | -- | -- | tktk topics covered |
+| [DOM Review](./dom-review/README.md) | -- | -- | tktk topics covered |
 | [Further Study](./further-study/README.md) | -- | -- | tktk topics covered |
 |  **Total Module**                                        | -- | ---           | ---                 |
 
