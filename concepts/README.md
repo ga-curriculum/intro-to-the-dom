@@ -1,0 +1,51 @@
+# Intro to the DOM - Concepts
+
+![Hero image](../assets/tktkhero-main-subhead.png)
+
+**Learning objective:** By the end of this lesson, students will be able to have a basic understand of the Document Object Model (DOM).
+
+## What is the DOM?
+
+Continuing from the setup module, we will learn and explore more about what the DOM is by using Chrome's DevTools. After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
+
+Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
+
+Let's try out the DevTools by clicking on the `h1` element and using the **Styles** panel to add a CSS property of `color: red;`
+
+**vv [tktk tktk I think this image works fine, we'll just need to move it to our assests, as long as it meets our image size requirements.]**
+<img src="https://i.imgur.com/RAvgNl0.png" alt="going to need a new image?">
+
+Look closely after the closing `</h1>` tag - you see that _`== $0`_?
+
+That tells us that Chrome has created a variable named `$0` that represents the `<h1>` element in the DOM!
+
+Click on the **Console** tab and let's explore the properties on the `$0` element/object by typing `dir($0)`.
+
+You are now able to explore the `<h1>` element's DOM object - referred to as a **node**.
+
+Now try typing this in: `$0.style.backgroundColor = 'yellow'`
+
+> CSS property names in the DOM are lowerCamelCased because hyphens would be interpreted as minus signs.
+
+## Why do we use the DOM?
+
+Developers make web pages dynamic by manipulating the DOM using JavaScript.
+
+For example, in a To-Do app, a user typically would:
+
+- Type the text of the new to-do into an `<input>`
+- Click an `[Add Todo]` `<button>`
+
+**^^ [tktk tktk I think that an asset may be good here so that students can visualize the To Do App.]**
+
+The developer certainly would have coded a JavaScript function that would run in response to the button being clicked.
+
+That function would then perform the following:
+
+1. Create a new element, e.g., an `<li>`
+2. Access the text entered into the `<input>` element
+3. Set the content of the `<li>` to that text
+4. Append the new element to the appropriate parent element, e.g., a `<ul>`
+5. Finally, for a better user experience (UX), "reset" the input by clearing out the current text
+
+Several of the above steps requires the JS to access existing elements on the DOM. This can be done in a number of different ways, for example: by the element's `id`, CSS selector, `class`, etc.
