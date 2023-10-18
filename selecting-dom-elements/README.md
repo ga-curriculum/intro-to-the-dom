@@ -46,6 +46,35 @@ If the CSS selector provided to `querySelector()` matches multiple elements, it 
 
 If no matching DOM element is found, `querySelector()` will return `null`.
 
+If we were to grab the same element as we did above with the `id` of `title` using the `querySelector()` method, we would do the following:
+
+```js
+const titleEl = document.querySelector('#title');
+console.log(titleEl);
+```
+
+### Caching Elements
+
+In the examples above, when using both `getElementById()` and `querySelector()` methods, we stored the return value, in this case a reference to the DOM element, to a variable. This practice is known as **caching**. It is actually not necessary to **cache** a DOM element to make updates or changes. For example, if we wanted to change the text of the element we were using above, we could do so without caching it:
+
+```js
+document.getElementById('title').innerText = 'New Title'
+```
+
+However, if we needed to make another change to that same element, we would have query and traverse the DOM again to select the element a second time:
+
+```js
+document.getElementById('title').innerText = 'Even Newer Title'
+```
+
+Coding your web application in this manner could have an effect on its performance. As mentioned, without storing referencts to DOM elements in variables that will be frequently accessed, your application will have to repeatedly query and traverse the entire DOM to find those same elements over and over.
+
+Caching those elements solves that issue and can significantly inprove the performance of your application.
+
+In addition, caching DOM elements will help to keep your code DRY! Storing references to elements that will be accessed repeatedly will reduce the amount of code you need to write, make your code more readable and ultimately easier to maintain.
+
+You'll get a chance now to practice caching on your own, and then also in a bit, manipulating those elements you have cached.
+
 ### 👉 YOU DO: Practice (3 mins)
 
 1. In `index.html`, add a `<p>` tag below the `<h1>` and give it a `class` of `cool`, then...
