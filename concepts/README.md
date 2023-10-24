@@ -6,6 +6,35 @@
 
 ## What is the DOM?
 
+The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory data structure that represents the browser's web document.
+
+tktk Hunter, I think we have a
+<img src="https://i.imgur.com/W9ahTXh.png">
+
+As you can see, it's a tree-like data structure with the top (root) being the `document` object.
+
+
+**^^ [tktk tktk This will also need to change if the above asset becomes drastically different.]**
+
+If we type `document` in DevTool's console, we'll see the HTML-centric representation of the document, however, we want to explore the JavaScript data structure that is the DOM.  We can do this by typing `dir(document)` in console and exploring the objects and properties of the DOM.
+
+The DOM has an *application programming interface* or [*API*](https://en.wikipedia.org/wiki/Application_programming_interface) that enables developers to make the UI dynamic by using JavaScript to:
+
+-  Add elements to the document.
+-  Remove elements from the document.
+-  Change the content of elements.
+-  Change the attributes of elements.
+
+> 📚 An API, or Application Programming Interface, broadly is a set of predefined rules or methods that enables communication and data exchange between different software components, applications, or systems.
+> 
+> The DOM API specifically, is a set of methods and properties provided by web browsers that allows devs to interact with and manipulate the structure, content, and attributes of HTML using JavaScript.
+
+> **[tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules.]**
+
+
+
+## What is the DOM?
+
 Continuing from the setup module, we will learn and explore more about what the DOM is by using Chrome's DevTools. After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
 
 Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
