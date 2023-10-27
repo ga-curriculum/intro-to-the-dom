@@ -39,7 +39,7 @@ Open the `index.html` file and add HTML boilerplate by typing `!` and then hitti
 Finally, let's add an `<h1>` inside of the `<body>` as follows:
 
 ```html
-	<h1 id="main-title" class="title">DOM Practice</h1>
+  <h1 id="main-title" class="title">DOM Practice</h1>
 ```
 
 Open the `index.html` file in your browser.

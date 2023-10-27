@@ -1,80 +1,51 @@
-# Intro to the DOM - Concepts
+# ![Intro to the DOM - Concepts](../assets/tktkhero-main-subhead.png)
 
-![Hero image](../assets/tktkhero-main-subhead.png)
-
-**Learning objective:** By the end of this lesson, students will be able to have a basic understand of the Document Object Model (DOM).
+**Learning objective:** By the end of this lesson, students will have a basic understanding of the Document Object Model (DOM).
 
 ## What is the DOM?
 
-The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory data structure that represents the browser's web document.
+The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is a data representation of a web page loaded in the browser.
 
-tktk Hunter, I think we have a
+The DOM is a tree-like data structure with the top (root) being the `document` object. It mirrors the tree-like structure of the HTML for a given document. 
+
+tktk Hunter, I think you've made something similar to this already?
+
 <img src="https://i.imgur.com/W9ahTXh.png">
 
-As you can see, it's a tree-like data structure with the top (root) being the `document` object.
+JavaScript uses the DOM to access an HTML document and its elements. The DOM has an *application programming interface* or [*API*](https://en.wikipedia.org/wiki/Application_programming_interface) that enables developers to make the UI dynamic by using JavaScript to:
 
+- Add elements to the document.
+- Remove elements from the document.
+- Change the content of elements.
+- Change the attributes of elements.
 
-**^^ [tktk tktk This will also need to change if the above asset becomes drastically different.]**
-
-If we type `document` in DevTool's console, we'll see the HTML-centric representation of the document, however, we want to explore the JavaScript data structure that is the DOM.  We can do this by typing `dir(document)` in console and exploring the objects and properties of the DOM.
-
-The DOM has an *application programming interface* or [*API*](https://en.wikipedia.org/wiki/Application_programming_interface) that enables developers to make the UI dynamic by using JavaScript to:
-
--  Add elements to the document.
--  Remove elements from the document.
--  Change the content of elements.
--  Change the attributes of elements.
-
-> 📚 An API, or Application Programming Interface, broadly is a set of predefined rules or methods that enables communication and data exchange between different software components, applications, or systems.
+> 📚 An API, or Application Programming Interface, is a set of predefined rules or methods that enables communication and data exchange between software components, applications, or systems.
 > 
-> The DOM API specifically, is a set of methods and properties provided by web browsers that allows devs to interact with and manipulate the structure, content, and attributes of HTML using JavaScript.
-
-> **[tktk tktk Below are the steps for the set up, it will just need to be formatted to match all of the other modules.]**
-
-
-
-## What is the DOM?
-
-Continuing from the setup module, we will learn and explore more about what the DOM is by using Chrome's DevTools. After `index.html` is opened in Chrome, use the keyboard shortcut of `option command J` (macOS) or `ctrl shift J` (Windows) to open Chrome's DevTools.
-
-Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
-
-Let's try out the DevTools by clicking on the `h1` element and using the **Styles** panel to add a CSS property of `color: red;`
-
-**vv [tktk tktk I think this image works fine, we'll just need to move it to our assests, as long as it meets our image size requirements.]**
-<img src="https://i.imgur.com/RAvgNl0.png" alt="going to need a new image?">
-
-Look closely after the closing `</h1>` tag - you see that _`== $0`_?
-
-That tells us that Chrome has created a variable named `$0` that represents the `<h1>` element in the DOM!
-
-Click on the **Console** tab and let's explore the properties on the `$0` element/object by typing `dir($0)`.
-
-You are now able to explore the `<h1>` element's DOM object - referred to as a **node**.
-
-Now try typing this in: `$0.style.backgroundColor = 'yellow'`
-
-> CSS property names in the DOM are lowerCamelCased because hyphens would be interpreted as minus signs.
+> Specifically, the DOM API specifically, is a set of methods and properties provided by web browsers that allow us to interact with and manipulate the structure, content, and attributes of HTML using JavaScript. 
 
 ## Why do we use the DOM?
 
-Developers make web pages dynamic by manipulating the DOM using JavaScript.
+We can make web pages dynamic and respond to user action by manipulating the DOM using JavaScript.
 
-For example, in a To-Do app, a user typically would:
+For example, imagine a user is interacting with a small to-do application that looks like this:
+
+tktk Hunter, can you build a straightforward UI for a to-do app? Just an input, a button, and the list.
+
+To interact with this app, the user might want to:
 
 - Type the text of the new to-do into an `<input>`
-- Click an `[Add Todo]` `<button>`
+- Click an `<button>` labeled **Add to-do**
 
-**^^ [tktk tktk I think that an asset may be good here so that students can visualize the To Do App.]**
+tktk Hunter, and then update the above image with this ^^ in another image here?
 
-The developer certainly would have coded a JavaScript function that would run in response to the button being clicked.
+So what happens next? This is why we use the DOM. For the app to function when the button is clicked, the click would trigger a function that performs the following: 
 
-That function would then perform the following:
+1. Create a new element.
+2. Access the text entered into the `<input>` element.
+3. Set the content of the new element to that text.
+4. Place the new element on the page so that it's visible to the user.
+5. Finally, for a better user experience (UX), reset the input by clearing out the current text.
 
-1. Create a new element, e.g., an `<li>`
-2. Access the text entered into the `<input>` element
-3. Set the content of the `<li>` to that text
-4. Append the new element to the appropriate parent element, e.g., a `<ul>`
-5. Finally, for a better user experience (UX), "reset" the input by clearing out the current text
+The above steps require our JavaScript app to interact with the DOM.
 
-Several of the above steps requires the JS to access existing elements on the DOM. This can be done in a number of different ways, for example: by the element's `id`, CSS selector, `class`, etc.
+tktk Hunter, annnd one last update with the new to-do placed on that page.
