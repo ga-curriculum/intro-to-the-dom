@@ -11,8 +11,8 @@ Intro to CSS
 
 ## Content
 
-| Lesson | Video Time | Video | Skills Covered |
-| ------ |:----------:|:-----:| -------------- |
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md)                                                               | -- | -- | --                  |
 | [Concepts](./concepts/README.md)                                                         | -- | -- | tktk Skills covered |
 | [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | tktk Skills covered |
@@ -23,8 +23,8 @@ Intro to CSS
 
 ## Level Up Content
 
-| Lesson | Video Time | Video | Skills Covered |
-| ------ |:----------:|:-----:| -------------- |
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
 | [The `getElementById()` Method](./level-up/the-getElementById-method.md) | -- | -- | tktk Skills covered |
 | [The `innerHTML` property](./level-up/the-innerhtml-property.md)         | -- | -- | tktk Skills covered |
 | [`NodeList`](./level-up/nodelist.md)                                     | -- | -- | tktk Skills covered |
