@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces the Document Object Model
+This module introduces the Document Object Model. It covers selecting and modifying single elements and multiple elements. It also covers querying and modifying element attributes.
 
 ## Prerequisites
 
