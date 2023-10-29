@@ -1,34 +1,37 @@
-# Introduction to the Document Object Model (DOM)
+# ![Intro to the DOM](./assets/tktkhero-main.png)
 
-![Hero image](./assets/tktkhero-main.png)
+## About
 
-## Module overview
+This module introduces the Document Object Model
 
-tktk What is the takeaway of this module?
+## Prerequisites
 
-## Content outline
+tktk
+Intro to CSS
 
-| Lesson | Video Time | Video | Topics Covered |
+## Content
+
+| Lesson | Video Time | Video | Skills Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | -- | -- | tktk topics covered |
-| [Concepts](./concepts/README.md) | -- | -- | tktk topics covered |
-| [Selecting DOM Elements](./selecting-dom-elements/README.md) | -- | -- | tktk topics covered |
-| [Collections of Elements](./collections-of-elements/README.md) | -- | -- | tktk topics covered |
-| [Element Properties](./element-properties/README.md) | -- | -- | tktk topics covered |
-| [Class Attribute](./class-attribute/README.md) | -- | -- | tktk topics covered |
-| [DOM Review](./dom-review/README.md) | -- | -- | tktk topics covered |
-| [Further Study](./further-study/README.md) | -- | -- | tktk topics covered |
-|  **Total Module**                                        | -- | ---           | ---                 |
+| [Setup](./setup/README.md)                                                               | -- | -- | --                  |
+| [Concepts](./concepts/README.md)                                                         | -- | -- | tktk Skills covered |
+| [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | tktk Skills covered |
+| [Modifying an Element](./modifying-an-element/README.md)                                 | -- | -- | tktk Skills covered |
+| [Working with Collections of Elements](./working-with-collections-of-elements/README.md) | -- | -- | tktk Skills covered |
+| [Element Attributes](./element-attributes/README.md)                                     | -- | -- | tktk Skills covered |
+|  **Total Module**                                                                        | -- | -- | --                  |
 
-## Additional content 
+## Level Up Content
+
+| Lesson | Video Time | Video | Skills Covered |
+| ------ |:----------:|:-----:| -------------- |
+| [The `getElementById()` Method](./level-up/the-getElementById-method.md) | -- | -- | tktk Skills covered |
+| [The `innerHTML` property](./level-up/the-innerhtml-property.md)         | -- | -- | tktk Skills covered |
+| [`NodeList`](./level-up/nodelist.md)                                     | -- | -- | tktk Skills covered |
+
+## References
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
 
 ## Internal resources
 

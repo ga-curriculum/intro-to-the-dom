@@ -6,9 +6,9 @@
 
 The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is a data representation of a web page loaded in the browser.
 
-The DOM is a tree-like data structure with the top (root) being the `document` object. It mirrors the tree-like structure of the HTML for a given document. 
+The DOM is a tree-like data structure with the top (root) being the `document` object. It mirrors the tree-like structure of the HTML for a given document. Each element in the DOM is referred to as a node.
 
-tktk Hunter, I think you've made something similar to this already?
+tktk Hunter, I think you've made something similar to this already, can we replace the below?
 
 <img src="https://i.imgur.com/W9ahTXh.png">
 
@@ -38,7 +38,7 @@ To interact with this app, the user might want to:
 
 tktk Hunter, and then update the above image with this ^^ in another image here?
 
-So what happens next? This is why we use the DOM. For the app to function when the button is clicked, the click would trigger a function that performs the following: 
+So what happens next? This is why we use the DOM. For the app to function as the user expects when the button is clicked, the click would trigger a function that performs the following: 
 
 1. Create a new element.
 2. Access the text entered into the `<input>` element.
