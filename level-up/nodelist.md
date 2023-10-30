@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - NodeList](./assets/hero.png)
+# ![Intro to the DOM - Level Up - NodeList](./assets/hero-nodelist.png)
 
 As briefly discussed in the [Working with Collections of Elements lecture](../working-with-collections-of-elements/README.md), methods designed to return a collection of DOM elements return an array-like object called a [`NodeList`](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) instead of an array. 
 

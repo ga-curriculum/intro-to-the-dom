@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero.png)
+# ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero-the-get-element-by-id-method.png)
 
 The [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) method is the most computationally efficient way to select a DOM element but requires that an element has an `id` assigned to it (using the `id` attribute).
 

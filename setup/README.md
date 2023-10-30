@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Setup](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Setup](./assets/hero.png)
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 

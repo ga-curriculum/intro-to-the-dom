@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Working with Collections of Elements](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Working with Collections of Elements](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to select multiple elements out of the DOM simultaneously and iterate through those elements to carry out actions on them.
 

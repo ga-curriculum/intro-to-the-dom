@@ -1,4 +1,6 @@
-# ![Intro to the DOM - Video Hub](../../assets/tktkhero-secondary.png)
+# Intro to the DOM - Video Hub
+
+![Intro to the DOM - Video Hub](../../assets/hero.png)
 
 Here you'll find the outlines and the assets used in video content, as well as the original and final video content. Notes to help record specific content can also be found here, when applicable.
 

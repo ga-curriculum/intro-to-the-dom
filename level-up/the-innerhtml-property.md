@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - The innerHTML property](./assets/hero.png)
+# ![Intro to the DOM - Level Up - The innerHTML property](./assets/hero-the-inner-html-property.png)
 
 We've seen how to take actions on a DOM element, such as setting its text content with the `textContent` property, but what if we wanted to do something a little more complex, like add HTML inside of a DOM element? For that, there is `innerHTML`.
 

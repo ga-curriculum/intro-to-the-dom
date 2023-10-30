@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Selecting an Element](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Selecting an Element](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to select an element from the DOM.
 

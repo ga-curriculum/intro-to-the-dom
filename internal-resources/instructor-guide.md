@@ -1,4 +1,6 @@
-# ![Intro to the DOM - Instructor Guide](../assets/tktkhero-secondary.png)
+# Intro to the DOM - Instructor Guide
+
+![Intro to the DOM - Instructor Guide](../assets/hero.png)
 
 ***Nothing here yet.***
 

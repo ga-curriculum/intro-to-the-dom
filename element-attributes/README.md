@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Element Attributes](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Element Attributes](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to manipulate the attributes of an element.
 

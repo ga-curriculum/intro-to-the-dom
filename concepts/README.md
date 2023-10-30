@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Concepts](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will have a basic understanding of the Document Object Model (DOM).
 

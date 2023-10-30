@@ -1,4 +1,4 @@
-# ![Intro to the DOM](./assets/tktkhero-main.png)
+# ![Intro to the DOM](./assets/hero.png)
 
 ## About
 

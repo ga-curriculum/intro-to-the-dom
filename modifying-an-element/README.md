@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Modifying an Element](../assets/tktkhero-main-subhead.png)
+# ![Intro to the DOM - Modifying an Element](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to select elements from the DOM.
 
