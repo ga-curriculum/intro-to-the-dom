@@ -15,7 +15,7 @@ Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
 
 Look closely after the closing `</h1>` tag - you see that _`== $0`_?
 
-tktk Hunter, screenshot here of the Elements tab with the `<h1>` tag we created in setup selected and the `== $0` highlighted (sorry would do this myself, but I'm in Windows land and Chrome's new DevTools UI hasn't been fully implemented here yet)
+![Elements Tab](./assets/elements-tab.png)
 
 That tells us that the browser has created a variable named `$0` that represents the `<h1>` element in the DOM!
 

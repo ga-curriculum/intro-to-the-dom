@@ -16,7 +16,7 @@ Observe that the HTML tag `<strong>` prints as plain text. It does not modify th
 paragraphElement.innerHTML = 'Comments for <strong>today</strong>:';
 ```
 
-tktk Hunter, maybe an asset showing the results of both using `textContext` vs. `innerHTML`?
+![textContent vs innerHTML](./assets/text-content-vs-inner-html.png)
 
 Now, the HTML that we wrote is no longer being interpreted as text but instead as actual HTML. If you want to include HTML, use `innerHTML`.
 
