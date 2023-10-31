@@ -9,16 +9,16 @@ Now that you can select an element, let's modify its text content.
 As we explored the `titleElement`'s properties, you may have seen a couple related to text. The [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) property will be our preferred way of interacting with an element's text. It's speedy and avoids some of the pitfalls of other methods of setting text. As a bonus, it has a name that matches what it is - text content. So how do we use it?
 
 ```javascript
-paragraphElement.textContent = 'Comments for today:';
+paragraphElement.textContent = 'The placeholder text is gone!';
 ```
 
-Adding this to your JavaScript file will cause the text content of the title element to change to the string we've specified: `'Comments for today:'`
+Adding this to your JavaScript file will cause the text content of the paragraph element to change to the string we've specified: `'The placeholder text is gone!'`
 
 It's important to recognize that this is a property just like any other property; that doesn't change because it is a DOM element. For example, we can console log it:
 
 ```javascript
 console.log(paragraphElement.textContent);
-// prints: 'Comments for today:"
+// prints: 'The placeholder text is gone!"
 ```
 
 We can even perform logical operations with it:

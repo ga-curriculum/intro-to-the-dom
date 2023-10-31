@@ -10,7 +10,8 @@ This release modularizes the legacy Intro to the DOM lecture and provides some o
 
 **Additions**
 
-
+- Add a lesson to demonstrate how to create elements.
+- Add a lesson to demonstrate how to precisely control where elements are placed in a document in the Placing Elements Precisely Level Up.
 
 **Changes**
 

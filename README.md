@@ -17,6 +17,7 @@ Intro to CSS
 | [Concepts](./concepts/README.md)                                                         | -- | -- | tktk Skills covered |
 | [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | tktk Skills covered |
 | [Modifying an Element](./modifying-an-element/README.md)                                 | -- | -- | tktk Skills covered |
+| [Creating an Element](./modifying-an-element/README.md)                                 | -- | -- | tktk Skills covered |
 | [Working with Collections of Elements](./working-with-collections-of-elements/README.md) | -- | -- | tktk Skills covered |
 | [Element Attributes](./element-attributes/README.md)                                     | -- | -- | tktk Skills covered |
 |  **Total Module**                                                                        | -- | -- | --                  |
@@ -26,7 +27,8 @@ Intro to CSS
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [The `getElementById()` Method](./level-up/the-getElementById-method.md) | -- | -- | tktk Skills covered |
-| [The `innerHTML` property](./level-up/the-innerhtml-property.md)         | -- | -- | tktk Skills covered |
+| [The `innerHTML` Property](./level-up/the-innerhtml-property.md)         | -- | -- | tktk Skills covered |
+| [Placing Elements Precisely](./level-up/placing-elements-precisely.md)   | -- | -- | tktk Skills covered |
 | [`NodeList`](./level-up/nodelist.md)                                     | -- | -- | tktk Skills covered |
 
 ## References
