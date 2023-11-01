@@ -6,7 +6,7 @@ What would have helped most in this situation is adding the new element relative
 
 ```html
 <body>
-  <h1 id="main-title" class="title">DOM Practice</h1>
+  <h1 id="main-title" class="title">Intro to the DOM</h1>
   <p class="cool">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fuga suscipit sint autem. Iure nam, libero perferendis ad doloremque quo eius nesciunt eveniet saepe. Voluptas qui dignissimos aliquam illo alias!
   </p>

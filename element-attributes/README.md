@@ -7,7 +7,7 @@
 You may need to get, set, or check if an element has a certain attribute. As a reminder, in this code snippet, `id` and `class` are both attributes:
 
 ```html
-<h1 id="main-title" class="title">DOM Practice</h1>
+<h1 id="main-title" class="title">Intro to the DOM</h1>
 ```
 
 The following methods enable us to work with an element's attributes:
