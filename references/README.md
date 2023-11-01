@@ -1,6 +1,4 @@
-# Intro to the DOM - References
-
-![Hero image](./assets/hero.png)
+# ![Intro to the DOM - References](./assets/hero.png)
 
 ## Lesson references
 
