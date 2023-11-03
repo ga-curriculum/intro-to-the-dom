@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - Placing Elements Precisely](./assets/placing-elements-precisely.png)
+# ![Intro to the DOM - Level Up - Placing Elements Precisely](./assets/hero-placing-elements-precisely.png)
 
 In [Creating an Element](../creating-an-element/README.md), we covered placing an element onto the page with the `appendChild()` method. This is the most commonly used method for placing elements on a page, but sometimes, you need to place elements more precisely than that. Let's check out how.
 
