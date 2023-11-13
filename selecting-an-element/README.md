@@ -27,7 +27,7 @@ You can now explore the `<h1>` element's DOM object - aka the `<h1>` node.
 
 That's cool for our initial exploration, but we can't use that in our apps. For that, there is `querySelector()`.
 
-The [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) method on the `document` object selects a single element using CSS selectors. This means we use the same selectors we would use to target an element for styling!
+The [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) method on the `document` object selects a single element using CSS selectors. This means we use the same selectors we would use to target an element for styling!
 
 The `querySelector()` method takes a single string argument. This string should follow the rules of regular CSS selectors. 
 

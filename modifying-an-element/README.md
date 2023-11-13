@@ -31,13 +31,12 @@ if (paragraphElement.textContent !== '') {
 
 ## Modifying style
 
-DOM elements have a [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property that can be used to set CSS styling!
+DOM elements have a [`style`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property that can be used to set CSS styling!
 
 We can center the text in the `<h1>` by setting the `textAlign` property on the `style` object:
 
 ```js
-const titleEl = document.querySelector('#title');
-titleEl.style.textAlign = 'center';
+titleElement.style.textAlign = 'center';
 ```
 
 Recall that the naming convention used for CSS properties in CSS is ***kebab-case***. In JavaScript, variable and property names can't include a `-`, so that naming convention can't be used here. That is why we have to use ***camelCase*** property names for CSS properties (like `textAlign` above) instead. 

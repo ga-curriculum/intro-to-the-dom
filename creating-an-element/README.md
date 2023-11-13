@@ -26,7 +26,7 @@ The `createElement()` method accepts a string argument. This string specifies th
 We can do anything with this element that we could do to an element we've selected from out of the DOM. For example, we can give it some text content like we originally discussed:
 
 ```javascript
-h2Element.textContent = "Comments section";
+h2Element.textContent = 'Comments section';
 ```
 
 Cool! Except it doesn't appear on our page.
