@@ -17,7 +17,7 @@ Intro to CSS
 | [Concepts](./concepts/README.md)                                                         | -- | -- | tktk Skills covered |
 | [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | tktk Skills covered |
 | [Modifying an Element](./modifying-an-element/README.md)                                 | -- | -- | tktk Skills covered |
-| [Creating an Element](./modifying-an-element/README.md)                                 | -- | -- | tktk Skills covered |
+| [Creating an Element](./creating-an-element/README.md)                                   | -- | -- | tktk Skills covered |
 | [Working with Collections of Elements](./working-with-collections-of-elements/README.md) | -- | -- | tktk Skills covered |
 | [Element Attributes](./element-attributes/README.md)                                     | -- | -- | tktk Skills covered |
 |  **Total Module**                                                                        | -- | -- | --                  |

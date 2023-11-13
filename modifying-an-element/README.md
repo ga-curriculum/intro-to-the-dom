@@ -36,7 +36,7 @@ DOM elements have a [style](https://developer.mozilla.org/en-US/docs/Web/API/HTM
 We can center the text in the `<h1>` by setting the `textAlign` property on the `style` object:
 
 ```js
-const titleEl = document.getElementById('title');
+const titleEl = document.querySelector('#title');
 titleEl.style.textAlign = 'center';
 ```
 
