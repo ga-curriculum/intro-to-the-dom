@@ -1,5 +1,7 @@
 # ![Intro to the DOM - Level Up - Placing Elements Precisely](./assets/hero-placing-elements-precisely.png)
 
+**Learning objective:** By the end of this lesson, students will be able to use various DOM manipulation methods like `after()`, `before()`, and `replaceChild()` to place new elements in specific locations within the DOM.
+
 In [Creating an Element](../creating-an-element/README.md), we covered placing an element onto the page with the `appendChild()` method. This is the most commonly used method for placing elements on a page, but sometimes, you need to place elements more precisely than that. Let's check out how.
 
 What would have helped most in this situation is adding the new element relative to its sibling element. For example, say we always wanted the `<h2>` element to always be immediately after the `<p>` element in the document:

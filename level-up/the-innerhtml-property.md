@@ -1,5 +1,7 @@
 # ![Intro to the DOM - Level Up - The innerHTML Property](./assets/hero-the-inner-html-property.png)
 
+**Learning objective:** By the end of this lesson, students will be able to use the `innerHTML` property to insert or update HTML content within a DOM element.
+
 We've seen how to take actions on a DOM element, such as setting its text content with the `textContent` property, but what if we wanted to do something a little more complex, like add HTML inside of a DOM element? For that, there is `innerHTML`.
 
 The [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) property is used to retrieve and set content as HTML in the format of a string.

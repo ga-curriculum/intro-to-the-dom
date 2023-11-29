@@ -1,5 +1,7 @@
 # ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero-the-get-element-by-id-method.png)
 
+**Learning objective:** By the end of this lesson, students will be able to use the `getElementById()` method to efficiently select and work with a DOM element based on its unique `id` attribute.
+
 The [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) method is the most computationally efficient way to select a DOM element but requires that an element has an `id` assigned to it (using the `id` attribute).
 
 Let's select the `<h1>` by its `id` and save the reference to the DOM element in a variable named `titleElementById`:

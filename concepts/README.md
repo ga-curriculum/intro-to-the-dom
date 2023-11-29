@@ -14,7 +14,7 @@ JavaScript uses the DOM to access an HTML document and its elements. The DOM has
 
 > 📚 An API, or Application Programming Interface, is a set of predefined rules or methods that enables communication and data exchange between software components, applications, or systems.
 > 
-> Specifically, the DOM API specifically, is a set of methods and properties provided by web browsers that allow us to interact with and manipulate the structure, content, and attributes of HTML using JavaScript. 
+> More specifically, the DOM API, is a set of methods and properties provided by web browsers that allow us to interact with and manipulate the structure, content, and attributes of HTML using JavaScript. 
 
 ## Why do we use the DOM?
 
@@ -26,8 +26,4 @@ By itself, HTML is fairly static. But by using the DOM we can do things like:
 - Create or remove elements.
 - Respond to events.
 
-If we want to modify existing elements or display new ones using JavaScript, we rely on the DOM.
-
-Since we use JavaScript to interact with the DOM we can carry out programmatic operations with app logic.
-
-We can make web pages dynamic and respond to user action by manipulating the DOM using JavaScript.
+If we want to modify existing elements or display new ones using JavaScript, we rely on the DOM. We can also make web pages dynamic and respond to user actions by manipulating the DOM using JavaScript.

@@ -1,5 +1,7 @@
 # ![Intro to the DOM - Level Up - NodeList](./assets/hero-nodelist.png)
 
+**Learning objective:** By the end of this lesson, students will be able to convert a `NodeList` into an array using the `Array.from()` method and the `spread` syntax.
+
 As briefly discussed in the [Working with Collections of Elements lecture](../working-with-collections-of-elements/README.md), methods designed to return a collection of DOM elements return an array-like object called a [`NodeList`](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) instead of an array. 
 
 A `NodeList` will have a `forEach()` method but doesn't contain any other useful methods that full-fledged arrays have.

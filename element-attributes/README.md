@@ -1,39 +1,49 @@
 # ![Intro to the DOM - Element Attributes](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to manipulate the attributes of an element.
+**Learning objective:** By the end of this lesson, students will be able to change the attributes of an element on a webpage using JavaScript.
 
 ## Accessing and modifying the attributes of an element
 
-You may need to get, set, or check if an element has a certain attribute. As a reminder, in this code snippet, `id` and `class` are both attributes:
+Attributes in HTML provide additional information about elements. Common examples include `id` and `class`. 
+
+As a reminder, in this code snippet, `id` and `class` are both attributes:
 
 ```html
 <h1 id="main-title" class="title">Intro to the DOM</h1>
 ```
 
-The following methods enable us to work with an element's attributes:
+There are several methods in JavaScript that let you work with these attributes:
 
-- [`getAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
-- [`setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
-- [`hasAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
-- [`removeAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
+- [`getAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute): Retrieves the value of a specified attribute.
+- [`setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute): Sets or updates the value of a specified attribute.
+- [`hasAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute): Checks if an element has a certain attribute.
+- [`removeAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute): Removes a specified attribute from an element.
 
-These attributes can be useful when carrying out logic in an app. To see this in action, add a button to your HTML:
+These methods are essential for dynamically changing an element's characteristics in your application.
+
+
+## Practical example: enabling a button
+
+
+To see this in action, let’s apply these methods in a practical scenario:
+
+Add a button to your HTML like this:
 
 ```html
 <button disabled>Click me!</button>
 ```
 
-> 💡 `disabled` is a boolean attribute that doesn't have a value. If it's present on an element, then that element cannot be modified or interacted with by a user.
+> 💡 `disabled` is a boolean attribute that doesn't have a value. If it's present on an element, then that element cannot be modified or interacted with by a user. This means the button is initially unclickable.
 
-Then, use `querySelector()` to get this element from the DOM:
+1. Use `querySelector()` to select the button element:
 
 ```javascript
 const buttonElement = document.querySelector('button');
 ```
 
-Let's add a check to see if the button has the `disabled` attribute. If it does, let's remove it.
+2. To make the button clickable, we first check if it has the `disabled` attribute, and then remove it if it does.
 
-To see if an element has an attribute, we'll use the `hasAttribute()` method. It accepts a single string argument. If it has the attribute we specify with the string argument, it will return `true`. Otherwise, it will return `false`. 
+- To see if an element has an attribute, we'll use the `hasAttribute()` method. It accepts a single string argument. If the element has the attribute we specify, it will return `true`. Otherwise, it will return `false`. 
 
 ```javascript
 if (buttonElement.hasAttribute('disabled') === true) {
@@ -41,7 +51,7 @@ if (buttonElement.hasAttribute('disabled') === true) {
 }
 ```
 
-We can then remove the `disabled` attribute with the `removeAttribute()` method. It accepts a single string argument. If it has the attribute we specify with the string argument, it will be removed.
+- We can then remove the `disabled` attribute with the `removeAttribute()` method. It accepts a single string argument. If the element has the attribute we specify, it will be removed.
 
 ```javascript
 if (buttonElement.hasAttribute('disabled') === true) {
@@ -49,11 +59,12 @@ if (buttonElement.hasAttribute('disabled') === true) {
 }
 ```
 
-We can now click the button! It still doesn't do anything, but at least we can interact with it!
+After removing the `disabled` attribute, the button becomes interactive, meaning you can now click it.
+It still doesn't do anything, but at least we can interact with it!
 
-### 🧠 You Do
+### 🎓 You Do
 
-Test out the `setAttribute()` method. It accepts two arguments - the first is the attribute we would like to change, and the second is the value we would like to change it to. Check out the [documentation for `setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) to help you out.
+Test out the `setAttribute()` method. It accepts two arguments - the first is the name of the attribute we would like to change, and the second is the value we would like to change it to. Check out the [documentation for `setAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute) for more support. 
 
 Give the `buttonElement` we created above an `id` of `'submit'`.
 
@@ -61,26 +72,30 @@ Inspect the element in the DevTools to confirm that this was successful.
 
 ## The `class` attribute
 
-Technically, you could use those attribute methods above to work with an element's classes. However, the [`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) property offers a better approach because it has methods built specifically for interacting with classes.
+When working with the class attribute of HTML elements, JavaScript provides a powerful and convenient property called [`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList). This property is more efficient and versatile for handling classes compared to using general attribute methods.
 
-`classList` is an object with the following methods pertaining to classes:
+The `classList` property is an object that offers specific methods to manipulate the classes of an element. These methods are designed to handle common tasks related to CSS classes.
 
-- `add(className, className, ...)` 
-- `remove(className, className, ...)`
-- `toggle(className)`
-- `contains(className)`
-- `replace(oldClass, newClass)`
+Here are some of its methods:
 
-Let's add a class called `'btn'` to the `buttonElement`. The `classList`'s `add()` method accepts any number of comma-separated strings. Each one will be added to the element's class!
+- `add(className, ...)` -  Adds one or more class names to an element. If the class already exists, it won't be added again.
+- `remove(className, ...)` -  Removes one or more class names from an element. If the class does not exist, nothing happens.
+- `toggle(className)` -  Adds the class if it does not exist, and removes it if it does.
+- `contains(className)` -  Checks if the element has the specified class.
+- `replace(oldClass, newClass)` -  Replaces an existing class with a new class.
+
+<br>
+
+To add a class named 'btn' to our button element, we use the `add()` method:
 
 ```javascript
-buttonElement.classList.add('btn')
+buttonElement.classList.add('btn');
 ```
 
 Inspect the element in the DevTools to confirm that this was successful.
 
-### 🧠 You Do
+### 🎓 You Do
 
-Following the examples in the [`classList` documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), write some code to get rid of the `'btn'` `class` from the `buttonElement`, then give it a new `class`: `action-button`
+Following the examples in the [`classList` documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), write some code to remove the `'btn'` `class` from the `buttonElement`, then give it a new `class` called `action-button`
 
 Inspect the element in the DevTools to confirm that this was successful.

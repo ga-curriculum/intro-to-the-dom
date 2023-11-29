@@ -5,11 +5,11 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 ```bash
 cd ~/code/ga/lectures
 ```
-Make a new directory called `dom-intro`, then enter this directory:
+Make a new directory called `intro-to-the-dom`, then enter this directory:
 
 ```bash
-mkdir dom-intro
-cd dom-intro
+mkdir intro-to-the-dom
+cd intro-to-the-dom
 ```
 
 Create a directory called `js`:
@@ -30,7 +30,7 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then make use of the `app.js` file inside of the `js` directory by adding this line inside the `<head>` tag:
+Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then link the `app.js` file inside of the `js` directory by adding this line inside the `<head>` tag:
 
 ```html
 <script defer src="./js/app.js"></script>
