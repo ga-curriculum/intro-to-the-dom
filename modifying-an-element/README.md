@@ -1,6 +1,6 @@
 # ![Intro to the DOM - Modifying an Element](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to modify the text content and style of an element using DOM manipulation in JavaScript. 
+**Learning objective:** By the end of this lesson, students will be able to modify the text content and style of an element using DOM manipulation in JavaScript.
 
 ## Modifying text
 
@@ -16,7 +16,7 @@ paragraphElement.textContent = 'The placeholder text is gone!';
 
 By adding this line to your JavaScript, the text within `paragraphElement` changes to `'The placeholder text is gone!'`. It's as simple as assigning a new string to the `textContent` property of the element.
 
-It's important to recognize that `textContent` is a property, just like other properties on objects in JavaScript. This remains true even though it's part of a DOM  element. 
+It's important to recognize that `textContent` is a property, just like other properties on objects in JavaScript. This remains true even though it's part of a DOM  element.
 
 For example, we can console log it:
 
@@ -53,10 +53,9 @@ In this example, `titleElement` is your selected `<h1>` element. By setting its 
 
 ### CSS property naming conventions
 
- - **In CSS:** We use ***kebab-case*** for property names. This means words are lowercased and separated by hyphens, like `text-align`.
+- **In CSS:** We use ***kebab-case*** for property names. This means words are lowercased and separated by hyphens, like `text-align`.
+- **In JavaScript:** Due to syntax rules, variable and property names cannot include hyphens `(-)`. Therefore, we use ***camelCase*** for CSS properties when working in JavaScript. For example, `text-align` in CSS becomes `textAlign` in JavaScript.
 
- - **In JavaScript:** Due to syntax rules, variable and property names cannot include hyphens `(-)`. Therefore, we use ***camelCase*** for CSS properties when working in JavaScript. For example, `text-align` in CSS becomes `textAlign` in JavaScript.
-
-### 🎓 You Do 
+### 🎓 You Do
 
 Let's get some practice adding some styles directly to a DOM element. Change the text color of the `<p>` element to a color of your choosing.

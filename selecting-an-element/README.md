@@ -4,16 +4,16 @@
 
 ## Selecting in the browser
 
-Let's start exploring the DOM with Chrome's DevTools. 
+Let's start exploring the DOM with Chrome's DevTools.
 
 With the `index.html` file open in your browser, open the DevTools:
 
-- In macOS, use `⌘ Command` + `Shift` + `C` 
+- In macOS, use `⌘ Command` + `Shift` + `C`
 - In Windows or Linux, use  `Ctrl` + `Shift` + `C`
 
 Click on the **Elements** tab to browse the HTML hierarchy of the DOM.
 
-Look closely after the closing `</h1>` tag - you see that _`== $0`_?
+Look closely after the closing `</h1>` tag - you see that *`== $0`*?
 
 ![Elements Tab](./assets/elements-tab.png)
 

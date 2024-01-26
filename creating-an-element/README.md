@@ -18,7 +18,7 @@ const bodyElement = document.querySelector('body');
 console.dir(bodyElement);
 ```
 
-If we selected the element correctly, we'll have the entire body of our document logged in the browser console! Now that we have access to the `<body>` element, we can create a new element to place inside of it. 
+If we selected the element correctly, we'll have the entire body of our document logged in the browser console! Now that we have access to the `<body>` element, we can create a new element to place inside of it.
 
 ### 2. Create a new element
 
@@ -37,13 +37,14 @@ For example, we can add text content to this new element:
 ```javascript
 h2Element.textContent = 'Comments section';
 ```
+
 Here, we’re setting the textContent of the h2Element to 'Comments section'. This adds the specified text to our new `<h2>` element.
 
 Great! Except it doesn't appear on our page.
 
-> It's important to note that this element only exists in our JavaScript application. It does not yet exist as an element you can see on the page in your browser. When an element has been created, but not yet placed on the page, we refer to it as being ***in memory***. 
+> It's important to note that this element only exists in our JavaScript application. It does not yet exist as an element you can see on the page in your browser. When an element has been created, but not yet placed on the page, we refer to it as being ***in memory***.
 
-To see it, we need to place it on the page! 
+To see it, we need to place it on the page!
 
 ### 3. Place the element in the DOM
 
@@ -55,6 +56,6 @@ bodyElement.appendChild(h2Element);
 
 You should now see the `<h2>` we created in the browser! The `<h2>` element has been appended as a child of the `<body>` element in the DOM tree.
 
-> ⚠ The `appendChild()` method works by adding the element we've passed to it as the ***last element*** inside of the element we're appending it to. Because the last element inside the body in our HTML is currently the `<p>` element, the `<h2>` element we've added will appear immediately after it. 
-> 
+> ⚠ The `appendChild()` method works by adding the element we've passed to it as the ***last element*** inside of the element we're appending it to. Because the last element inside the body in our HTML is currently the `<p>` element, the `<h2>` element we've added will appear immediately after it.
+>
 > However, if we manually add more elements to the end of the current HTML file, the `<h2>` element will appear after those- because it is added by our JavaScript at runtime. You'll see this soon. If you're interested in techniques to place elements more exactly, check out the [Placing Elements Precisely Level Up](../level-up/placing-elements-precisely.md).

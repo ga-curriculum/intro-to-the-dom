@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - Placing Elements Precisely](./assets/hero-placing-elements-precisely.png)
+# ![Intro to the DOM - Level Up - Placing Elements Precisely](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use various DOM manipulation methods like `after()`, `before()`, and `replaceChild()` to place new elements in specific locations within the DOM.
 

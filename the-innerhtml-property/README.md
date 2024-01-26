@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - The innerHTML Property](./assets/hero-the-inner-html-property.png)
+# ![Intro to the DOM - Level Up - The innerHTML Property](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use the `innerHTML` property to insert or update HTML content within a DOM element.
 

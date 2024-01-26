@@ -2,7 +2,7 @@
 
 ## About
 
-This module provides an introductory exploration of the Document Object Model (DOM) in web development. Suitable for those starting their journey in web development, it provides essential insights into how browsers render web pages and how developers can interact with and modify web page content dynamically. Learning about the DOM is vital as it forms the backbone of web page interactivity and front-end frameworks. 
+This module provides an introductory exploration of the Document Object Model (DOM) in web development. Suitable for those starting their journey in web development, it provides essential insights into how browsers render web pages and how developers can interact with and modify web page content dynamically. Learning about the DOM is vital as it forms the backbone of web page interactivity and front-end frameworks.
 
 ## Prerequisites
 
@@ -14,23 +14,18 @@ This module provides an introductory exploration of the Document Object Model (D
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                                               | -- | -- | Setting up the development environment   |
-| [Concepts](./concepts/README.md)                                                         | -- | -- | Understanding the Document Object Model (DOM) |
-| [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | Selecting elements using `querySelector()` |
-| [Modifying an Element](./modifying-an-element/README.md)                                 | -- | -- | Modify the `textContent` and `style` of DOM elements |
-| [Creating an Element](./creating-an-element/README.md)                                   | -- | -- | Create and append an element in the DOM   |
-| [Working with Collections of Elements](./working-with-collections-of-elements/README.md) | -- | -- | Using `querySelectorAll()` and `forEach()` to iterate through DOM elements|
-| [Element Attributes](./element-attributes/README.md)                                     | -- | -- | Get, set, and remove attributes with JavaScript methods |
-|  **Total Module**                                                                        | -- | -- |                   |
-
-## Level Up Content
-
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [The `getElementById()` Method](./level-up/the-getElementById-method.md) | -- | -- | Using `getElementById()` for efficient DOM element selection |
-| [The `innerHTML` Property](./level-up/the-innerhtml-property.md)         | -- | -- | Using `innerHTML` to manipulate HTML content inside DOM elements |
-| [Placing Elements Precisely](./level-up/placing-elements-precisely.md)   | -- | -- | DOM methods like `after()`, `before()`, and `replaceChild()` |
-| [`NodeList`](./level-up/nodelist.md)                                     | -- | -- | Converting `NodeLists` to arrays using `Array.from()` and `spread` syntax |
+| [Setup](./setup/README.md)                                                               | -- | -- | Setting up the development environment.                                     |
+| [Concepts](./concepts/README.md)                                                         | -- | -- | Understanding the Document Object Model (DOM).                              |
+| [Selecting an Element](./selecting-an-element/README.md)                                 | -- | -- | Selecting elements using `querySelector()`.                                 |
+| [Modifying an Element](./modifying-an-element/README.md)                                 | -- | -- | Modify the `textContent` and `style` of DOM elements.                       |
+| [Creating an Element](./creating-an-element/README.md)                                   | -- | -- | Create and append an element in the DOM.                                    |
+| [Working with Collections of Elements](./working-with-collections-of-elements/README.md) | -- | -- | Using `querySelectorAll()` and `forEach()` to iterate through DOM elements. |
+| [Element Attributes](./element-attributes/README.md)                                     | -- | -- | Get, set, and remove attributes with JavaScript methods.                    |
+| [The `getElementById()` Method](./level-up/the-getElementById-method.md)                 | -- | -- | Using `getElementById()` for efficient DOM element selection.               |
+| [The `innerHTML` Property](./level-up/the-innerhtml-property.md)                         | -- | -- | Using `innerHTML` to manipulate HTML content inside DOM elements.           |
+| [Placing Elements Precisely](./level-up/placing-elements-precisely.md)                   | -- | -- | DOM methods like `after()`, `before()`, and `replaceChild()`.               |
+| [`NodeList`](./level-up/nodelist.md)                                                     | -- | -- | Converting `NodeLists` to arrays using `Array.from()` and `spread` syntax.  |
+| **Total content**                                                                        | -- | -- |                                                                             |
 
 ## References
 

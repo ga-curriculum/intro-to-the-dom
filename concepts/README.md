@@ -13,8 +13,8 @@ The DOM is a tree-like data structure with the top (root) being the `document` o
 JavaScript uses the DOM to access an HTML document and its elements. The DOM has an *application programming interface* or [*API*](https://en.wikipedia.org/wiki/Application_programming_interface) that enables developers to make the UI dynamic by using JavaScript.
 
 > 📚 An API, or Application Programming Interface, is a set of predefined rules or methods that enables communication and data exchange between software components, applications, or systems.
-> 
-> More specifically, the DOM API, is a set of methods and properties provided by web browsers that allow us to interact with and manipulate the structure, content, and attributes of HTML using JavaScript. 
+>
+> More specifically, the DOM API, is a set of methods and properties provided by web browsers that allow us to interact with and manipulate the structure, content, and attributes of HTML using JavaScript.
 
 ## Why do we use the DOM?
 

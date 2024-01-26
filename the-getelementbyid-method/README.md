@@ -1,4 +1,4 @@
-# ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero-the-get-element-by-id-method.png)
+# ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use the `getElementById()` method to efficiently select and work with a DOM element based on its unique `id` attribute.
 
