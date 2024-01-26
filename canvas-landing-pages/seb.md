@@ -22,7 +22,7 @@ Learning about the DOM is vital as it forms the backbone of web page interactivi
 
 | Lesson | Skills |
 | ------ | ------ |
-| [The `getElementById()` Method](../the-getElementById-method/README.md) | Using `getElementById()` for efficient DOM element selection.              |
+| [The `getElementById()` Method](../the-getelementbyid-method/README.md) | Using `getElementById()` for efficient DOM element selection.              |
 | [The `innerHTML` Property](../the-innerhtml-property/README.md)         | Using `innerHTML` to manipulate HTML content inside DOM elements.          |
 | [Placing Elements Precisely](../placing-elements-precisely/README.md)   | DOM methods like `after()`, `before()`, and `replaceChild()`.              |
 | [`NodeList`](../nodelist/README.md)                                     | Converting `NodeLists` to arrays using `Array.from()` and `spread` syntax. |
