@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Level Up - NodeList](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead"><code>Nodelist</code></span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to convert a `NodeList` into an array using the `Array.from()` method and the `spread` syntax.
 

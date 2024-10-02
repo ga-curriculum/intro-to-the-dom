@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Working with Collections of Elements](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Working with Collections of Elements</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to select multiple elements from the DOM and iterate through those elements to carry out actions on them.
 

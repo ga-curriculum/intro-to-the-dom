@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Creating an Element](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Creating an Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create new elements in the DOM using JavaScript.
 

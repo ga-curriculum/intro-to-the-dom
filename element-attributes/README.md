@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Element Attributes](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Element Attributes</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to change the attributes of an element on a webpage using JavaScript.
 

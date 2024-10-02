@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Level Up - The getElementById() Method](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">The <code>getElementById()</code> Method</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use the `getElementById()` method to efficiently select and work with a DOM element based on its unique `id` attribute.
 
