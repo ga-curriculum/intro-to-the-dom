@@ -25,8 +25,8 @@ This creates an unordered list (`<ul>`) with an id of "comments" and contains th
 
 Now, to select these elements, we'll use `querySelectorAll()`. This method is similar to `querySelector()`, but with a key difference in how it selects elements:
 
-1) `querySelector()` selects the ***first element*** that matches the specified CSS selector.
-2) `querySelectorAll()`, on the other hand, selects ***all elements*** that match the CSS selector.
+1. `querySelector()` selects the **_first element_** that matches the specified CSS selector.
+2. `querySelectorAll()`, on the other hand, selects **_all elements_** that match the CSS selector.
 
 ### 🎓 You Do
 
@@ -37,7 +37,7 @@ Try to select multiple elements in the DOM
 
 ## Iterating over a collection of elements
 
-When you use `querySelectorAll` in JavaScript, it returns a collection of elements that resembles an array. This collection, known as a *NodeList*, can be looped through or iterated over, just like an array.
+When you use `querySelectorAll` in JavaScript, it returns a collection of elements that resembles an array. This collection, known as a _NodeList_, can be looped through or iterated over, just like an array.
 
 Because `querySelectorAll()` always returns this data structure, it's a good practice to use a variable name that reflects that it contains multiple elements. This is why we named the variable `commentElements` instead of `commentElement`.
 
@@ -48,10 +48,10 @@ Let's add the following `forEach()` loop to print the text content of each eleme
 ```js
 commentElements.forEach((commentElement) => {
   console.log(commentElement.textContent);
-})
+});
 ```
 
-> 🧠 `querySelectorAll()` doesn't return a true array, but instead something called a `NodeList`. This technical distinction won't impact our normal interaction with them, but if you'd like to learn more or are trying to do something atypical, it may be worth checking out the [`NodeList` Level Up](../level-up/nodelist.md).
+> 🧠 `querySelectorAll()` doesn't return a true array, but instead something called a `NodeList`. This technical distinction won't impact our normal interaction with them, but if you'd like to learn more or are trying to do something atypical, it may be worth checking out the `NodeList` lesson.
 
 ### 🎓 You Do
 
