@@ -22,7 +22,6 @@ This module provides an introductory exploration of the Document Object Model (D
 | [The `innerHTML` Property](./the-innerhtml-property/README.md)                           | Using `innerHTML` to manipulate HTML content inside DOM elements.           |
 | [Placing Elements Precisely](./placing-elements-precisely/README.md)                     | DOM methods like `after()`, `before()`, and `replaceChild()`.               |
 | [`NodeList`](./nodelist/README.md)                                                       | Converting `NodeLists` to arrays using `Array.from()` and `spread` syntax.  |
-| **Total content**                                                                        |                                                                             |
 
 ## References
 
