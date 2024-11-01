@@ -56,13 +56,13 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "The <code>getElementById()</code> Method",
+          "friendlyName": "The  getElementById()  Method",
           "dirName": "the-getelementbyid-method",
           "type": "Content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "The <code>innerHTML</code> Property",
+          "friendlyName": "The  innerHTML  Property",
           "dirName": "the-innerhtml-property",
           "type": "Content",
           "videoUrl": ""
@@ -74,7 +74,7 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "<code>Nodelist</code>",
+          "friendlyName": " Nodelist ",
           "dirName": "nodelist",
           "type": "Content",
           "videoUrl": ""
@@ -149,13 +149,13 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "The <code>getElementById()</code> Method",
+          "friendlyName": "The  getElementById()  Method",
           "dirName": "the-getelementbyid-method",
           "type": "Level Up content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "The <code>innerHTML</code> Property",
+          "friendlyName": "The  innerHTML  Property",
           "dirName": "the-innerhtml-property",
           "type": "Level Up content",
           "videoUrl": ""
@@ -167,7 +167,7 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "<code>Nodelist</code>",
+          "friendlyName": " Nodelist ",
           "dirName": "nodelist",
           "type": "Level Up content",
           "videoUrl": ""

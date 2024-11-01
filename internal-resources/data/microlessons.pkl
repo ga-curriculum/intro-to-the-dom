@@ -52,14 +52,14 @@ elementAttributes = new Template.Microlesson {
 }
 
 theGetelementbyidMethod = new Template.Microlesson {
-  friendlyName = "The <code>getElementById()</code> Method"
+  friendlyName = "The  getElementById()  Method"
   dirName = "the-getelementbyid-method"
   type = "Content"
   videoUrl = ""
 }
 
 theInnerhtmlProperty = new Template.Microlesson {
-  friendlyName = "The <code>innerHTML</code> Property"
+  friendlyName = "The  innerHTML  Property"
   dirName = "the-innerhtml-property"
   type = "Content"
   videoUrl = ""
@@ -73,7 +73,7 @@ placingElementsPrecisely = new Template.Microlesson {
 }
 
 nodelist = new Template.Microlesson {
-  friendlyName = "<code>Nodelist</code>"
+  friendlyName = " Nodelist "
   dirName = "nodelist"
   type = "Content"
   videoUrl = ""
