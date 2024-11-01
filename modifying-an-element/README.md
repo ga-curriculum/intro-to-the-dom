@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Modifying an Element](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Modifying an Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to modify the text content and style of an element using DOM manipulation in JavaScript.
 

@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Selecting an Element](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Selecting an Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to select an element from the DOM using `querySelector()` in JavaScript.
 

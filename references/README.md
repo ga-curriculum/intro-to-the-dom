@@ -1,4 +1,7 @@
-# ![Intro to the DOM - References](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 
@@ -15,9 +18,6 @@
 - [MDN - Element: `hasAttribute()` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
 - [MDN - Element: `removeAttribute()` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
 - [MDN - Element: `classList` property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
-
-## Level Up references
-
 - [MDN - Document: `getElementById()` method](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 - [MDN - Element: `innerHTML` property](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
 - [MDN - Element: `after()` method](https://developer.mozilla.org/en-US/docs/Web/API/Element/after)

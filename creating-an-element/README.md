@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Creating an Element](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">Creating an Element</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create new elements in the DOM using JavaScript.
 
@@ -42,7 +45,7 @@ Here, we’re setting the textContent of the h2Element to 'Comments section'. Th
 
 Great! Except it doesn't appear on our page.
 
-> It's important to note that this element only exists in our JavaScript application. It does not yet exist as an element you can see on the page in your browser. When an element has been created, but not yet placed on the page, we refer to it as being ***in memory***.
+> It's important to note that this element only exists in our JavaScript application. It does not yet exist as an element you can see on the page in your browser. When an element has been created, but not yet placed on the page, we refer to it as being **_in memory_**.
 
 To see it, we need to place it on the page!
 
@@ -56,6 +59,6 @@ bodyElement.appendChild(h2Element);
 
 You should now see the `<h2>` we created in the browser! The `<h2>` element has been appended as a child of the `<body>` element in the DOM tree.
 
-> ⚠ The `appendChild()` method works by adding the element we've passed to it as the ***last element*** inside of the element we're appending it to. Because the last element inside the body in our HTML is currently the `<p>` element, the `<h2>` element we've added will appear immediately after it.
+> ⚠ The `appendChild()` method works by adding the element we've passed to it as the **_last element_** inside of the element we're appending it to. Because the last element inside the body in our HTML is currently the `<p>` element, the `<h2>` element we've added will appear immediately after it.
 >
-> However, if we manually add more elements to the end of the current HTML file, the `<h2>` element will appear after those- because it is added by our JavaScript at runtime. You'll see this soon. If you're interested in techniques to place elements more exactly, check out the [Placing Elements Precisely Level Up](../level-up/placing-elements-precisely.md).
+> However, if we manually add more elements to the end of the current HTML file, the `<h2>` element will appear after those- because it is added by our JavaScript at runtime. You'll see this soon. If you're interested in techniques to place elements more exactly, check out the `Placing Elements Precisely` lesson.

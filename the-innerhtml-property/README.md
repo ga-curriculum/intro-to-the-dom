@@ -1,4 +1,7 @@
-# ![Intro to the DOM - Level Up - The innerHTML Property](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to the DOM</span>
+  <span class="subhead">The <code>innerHTML</code> Property</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use the `innerHTML` property to insert or update HTML content within a DOM element.
 
