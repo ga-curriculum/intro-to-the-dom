@@ -35,7 +35,7 @@ This module provides an introductory exploration of the Document Object Model (D
 - Foundational CSS
 - Foundational JavaScript
 
-### Github Pages Sites
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-the-dom/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-the-dom/canvas-landing-pages/seb)
